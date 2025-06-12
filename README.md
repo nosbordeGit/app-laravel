@@ -34,5 +34,8 @@ php artisan key:generate
 # 6. Execute as migrações
 php artisan migrate
 
-# 7. Inicie o servidor de desenvolvimento do frontend (Vite)
+# 7. Execute o vite
+npm install && npm run build
+
+# 8. Inicie o servidor de desenvolvimento do frontend (Vite)
 composer run dev
